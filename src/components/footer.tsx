@@ -56,7 +56,7 @@ const Footer: React.FC = () => {
             &copy; {currentYear} My Portfolio. All rights reserved.
           </p>
           <p className="footer-credit">
-            Designed & Built with <span className="heart">♥</span> by Me
+            Designed & Built by Me
           </p>
         </div>
       </div>
