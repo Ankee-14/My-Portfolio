@@ -12,24 +12,24 @@ interface EducationItem {
 const educationData: EducationItem[] = [
   {
     icon: '🎓',
-    degree: 'Bachelor of Science in Computer Science',
-    institution: 'Tech University',
-    year: '2015 - 2019',
+    degree: 'Bachelor\'s degree, Computer software Engineering',
+    institution: 'SLIIT City UNI ',
+    year: '2024 - 2025',
     description: 'Strong foundation in computer science fundamentals, data structures, algorithms, and software engineering principles.'
   },
   {
-    icon: '📚',
-    degree: 'Full Stack Web Development Bootcamp',
-    institution: 'Code Academy',
-    year: '2019',
+    icon: '📜',
+    degree: 'Higher National Diploma in Software Engineering',
+    institution: 'BCAS Campus Sri Lanka',
+    year: '2020 - 2022',
     description: 'Intensive 12-week program focused on modern web development with React, Node.js, and practical project experience.'
   },
   {
     icon: '🏆',
-    degree: 'AWS Certified Solutions Architect',
-    institution: 'Amazon Web Services',
-    year: '2021',
-    description: 'Professional certification demonstrating expertise in designing and deploying scalable, reliable, and secure infrastructure on AWS.'
+    degree: 'GCE Advanced Level',
+    institution: 'Jaffna Hindu College',
+    year: '2012 - 2020',
+    description: 'Completed GCE Advanced Level (commerce stream) .'
   }
 ];
 

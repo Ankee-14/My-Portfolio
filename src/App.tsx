@@ -7,7 +7,7 @@ import Skills from './components/skills';
 import Projects from './components/projects';
 import Experience from './components/experince';
 import Education from './components/education';
-import Contact from './components/contact';
+
 import Footer from './components/footer';
 // import './styles.css';
 
@@ -21,7 +21,6 @@ const App: React.FC = () => {
       <Projects />
       <Experience />
       <Education />
-      <Contact />
       <Footer />
     </div>
   );

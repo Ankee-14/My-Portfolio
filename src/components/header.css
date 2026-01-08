@@ -5,13 +5,13 @@
     left: 0;
     width: 100%;
     z-index: 1000;
-    background-color: rgba(255, 255, 255, 0.95);
+    /* background-color: rgba(255, 255, 255, 0.95); */
     backdrop-filter: blur(10px);
     transition: all 0.3s ease;
 }
 
 [data-theme="dark"] .header {
-    background-color: rgba(26, 26, 46, 0.95);
+    /* background-color: rgba(26, 26, 46, 0.95); */
 }
 
 .header-scrolled {

@@ -11,22 +11,28 @@ interface Project {
 
 const projectsData: Project[] = [
     {
-        image: '/assets/project1.jpg',
-        title: 'E-Commerce Platform',
-        description: 'A full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.',
-        tags: ['React', 'Node.js', 'MongoDB']
+        image: 'src/assets/Grow Your RESTAURANT Business Smartly_.jpg',
+        title: 'Restaurant Management System',
+        description: 'A restaurant management system UI designed in Figma and implemented using React and CSS, featuring responsive layouts, interactive components, and a clean dashboard experience.',
+        tags: ['React', 'Spring Boot', 'MySQL']
     },
     {
-        image: '/assets/project2.jpg',
+        image: 'src/assets/ui ux.jpg',
         title: 'Portfolio Website',
         description: 'A modern responsive portfolio website built with React and TypeScript. Clean design with smooth animations and optimal performance.',
         tags: ['React', 'TypeScript', 'CSS']
     },
     {
-        image: '/assets/project3.jpg',
-        title: 'Task Management App',
-        description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-        tags: ['Vue.js', 'Firebase', 'Tailwind']
+        image: 'src/assets/Travel.jpg',
+        title: 'Photography',
+        description: 'Photography with 5 years of experience, specializing in composition, lighting, and post-processing.',
+        tags: ['Photoshop', 'Lightroom', 'Photography']
+    },
+    {
+        image: 'src/assets/Cake Flyer Designs.jpg',
+        title: 'Graphics Design',
+        description: 'Graphic design experience creating flyers, posters, and social media thumbnails with a focus on visual clarity and engagement.',
+        tags: ['Photoshop', 'Illustrator', 'Canva', 'Figma']
     }
 ];
 

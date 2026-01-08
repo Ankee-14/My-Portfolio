@@ -12,22 +12,27 @@ const skillsData: Skill[] = [
     {
         icon: '💻',
         title: 'Frontend Development',
-        description: 'Building responsive and interactive user interfaces with React, Vue, and modern CSS frameworks.'
+        description: 'Building responsive, accessible, and interactive user interfaces using React and modern frontend technologies with CSS frameworks.'
     },
     {
         icon: '⚙️',
         title: 'Backend Development',
-        description: 'Creating robust server-side applications with Node.js, Python, and database management.'
+        description: 'Hands-on knowledge of Spring Boot fundamentals with API testing and validation using Postman.'
     },
     {
         icon: '🎨',
         title: 'UI/UX Design',
-        description: 'Designing intuitive user experiences with Figma, Adobe XD, and modern design principles.'
+        description: 'Designing intuitive user experiences with Figma, Adobe XD, and modern design principles (Basic).'
     },
     {
         icon: '🛠️',
         title: 'Tools & Others',
-        description: 'Proficient with Git, Docker, CI/CD pipelines, and agile development methodologies.'
+        description: 'Proficient with Git and MySQL, with a good understanding of version control and database management.'
+    }
+    ,{
+        icon: '📷',
+        title: 'Photography',
+        description: 'Capturing moments and landscapes with a keen eye for composition and lighting, with editing expertise in Photoshop and Lightroom.'
     }
 ];
 

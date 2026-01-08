@@ -11,25 +11,25 @@ interface ExperienceItem {
 
 const experienceData: ExperienceItem[] = [
   {
-    icon: '💼',
-    title: 'Senior Frontend Developer',
-    company: 'Tech Solutions Inc.',
-    duration: '2022 - Present',
-    description: 'Led development of responsive web applications using React and TypeScript. Improved performance by 40% and mentored junior developers.'
+    icon: '🌐',
+    title: 'Junior Frontend Developer',
+    company: 'Samuel Gnanam IT Centre.',
+    duration: '2025 - Present',
+    description: 'Developed responsive web applications using React and TypeScript, improving performance and implementing interactive UI components.'
   },
   {
-    icon: '💻',
-    title: 'Full Stack Developer',
-    company: 'Digital Innovations Ltd.',
-    duration: '2020 - 2022',
-    description: 'Built end-to-end solutions with React, Node.js, and MongoDB. Collaborated with designers and product teams to deliver high-quality features.'
+    icon: '🖥️',
+    title: 'Junior Application support Engineer',
+    company: 'IPOSG.',
+    duration: '2023 - 2024',
+    description: 'Provided application support and troubleshooting for web applications, ensuring smooth performance and assisting users with technical issues.'
   },
   {
-    icon: '🔧',
-    title: 'Junior Web Developer',
-    company: 'Web Agency Pro',
-    duration: '2019 - 2020',
-    description: 'Developed and maintained multiple client websites. Gained expertise in HTML, CSS, JavaScript, and modern web frameworks.'
+    icon: '📸',
+    title: 'Founder & CEO',
+    company: 'Ankavan Studio',
+    duration: '2020 - Present',
+    description: 'Founded and led Ankavan Studio, overseeing creative projects, managing client relationships, and driving business growth in photography and graphic design services.'
   }
 ];
 
