@@ -2,6 +2,8 @@
 import React from 'react';
 import './about.css';
 
+import profileImg from '../assets/linkedin-profile.jpg';
+
 const About: React.FC = () => {
   return (
     <section className="about" id="about">
@@ -10,7 +12,7 @@ const About: React.FC = () => {
 
         <div className="about-image-wrapper">
           <img
-            src="src/assets/linkedin-profile.jpg"
+            src={profileImg}
             alt="Profile"
             className="about-profile-img"
           />

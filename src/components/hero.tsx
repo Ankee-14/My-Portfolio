@@ -2,6 +2,8 @@
 import React from 'react';
 import './hero.css';
 
+import heroImg from '../assets/ankee Convo.jpg';
+
 const Hero: React.FC = () => {
   return (
     <section className="hero section" id="home">
@@ -22,7 +24,7 @@ const Hero: React.FC = () => {
         <div className="hero-image-wrapper">
           <div className="hero-image-card">
             <img
-              src="src/assets/ankee Convo.jpg"
+              src={heroImg}
               alt="3D Developer Illustration"
             />
           </div>
