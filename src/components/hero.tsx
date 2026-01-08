@@ -3,6 +3,7 @@ import React from 'react';
 import './hero.css';
 
 import heroImg from '../assets/ankee Convo.jpg';
+import resume from '../assets/Ankee Resume.pdf';
 
 const Hero: React.FC = () => {
   return (
@@ -18,7 +19,9 @@ const Hero: React.FC = () => {
            I’m a Frontend Developer with a strong UI/UX mindset, dedicated to building clean, modern, and user-friendly web experiences that feel intuitive and purposeful.
           </p>
           <button className="hero-btn">
+            <a href={resume} download="Ankee Resume.pdf">
             Download Resume
+            </a>
           </button>
         </div>
         <div className="hero-image-wrapper">
