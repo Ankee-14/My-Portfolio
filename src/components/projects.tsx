@@ -11,6 +11,7 @@ interface Project {
     title: string;
     description: string;
     tags: string[];
+    url?: string;
 }
 
 const projectsData: Project[] = [
@@ -18,19 +19,22 @@ const projectsData: Project[] = [
         image: projectImg1,
         title: 'Restaurant Management System',
         description: 'A restaurant management system UI designed in Figma and implemented using React and CSS, featuring responsive layouts, interactive components, and a clean dashboard experience.',
-        tags: ['React', 'Spring Boot', 'MySQL']
+        tags: ['React', 'Spring Boot', 'MySQL'],
+        url: 'https://github.com/Ankee-14/Resturant-System'
     },
     {
         image: projectImg2,
         title: 'Portfolio Website',
         description: 'A modern responsive portfolio website built with React and TypeScript. Clean design with smooth animations and optimal performance.',
-        tags: ['React', 'TypeScript', 'CSS']
+        tags: ['React', 'TypeScript', 'CSS'],
+        url: 'https://github.com/Ankee-14/My-Portfolio'
     },
     {
         image: projectImg3,
         title: 'Photography',
         description: 'Photography with 5 years of experience, specializing in composition, lighting, and post-processing.',
-        tags: ['Photoshop', 'Lightroom', 'Photography']
+        tags: ['Photoshop', 'Lightroom', 'Photography'],
+        url: 'https://www.facebook.com/share/1R4TDPLFZa/'
     },
     {
         image: projectImg4,
@@ -48,7 +52,12 @@ const Projects: React.FC = () => {
 
                 <div className="projects-grid">
                     {projectsData.map((project, index) => (
-                        <div className="project-card" key={index}>
+                        <div 
+                            className="project-card" 
+                            key={index}
+                            onClick={() => project.url && window.open(project.url, '_blank')}
+                            style={{ cursor: project.url ? 'pointer' : 'default' }}
+                        >
                             <div className="project-image-wrapper">
                                 <img
                                     src={project.image}
