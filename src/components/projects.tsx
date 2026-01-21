@@ -5,6 +5,7 @@ import projectImg1 from '../assets/Grow Your RESTAURANT Business Smartly_.jpg';
 import projectImg2 from '../assets/ui ux.jpg';
 import projectImg3 from '../assets/Travel.jpg';
 import projectImg4 from '../assets/Cake Flyer Designs.jpg';
+import projectImg5 from '../assets/Mockup 1.png';
 
 interface Project {
     image: string;
@@ -21,6 +22,13 @@ const projectsData: Project[] = [
         description: 'A restaurant management system UI designed in Figma and implemented using React and CSS, featuring responsive layouts, interactive components, and a clean dashboard experience.',
         tags: ['React', 'Spring Boot', 'MySQL'],
         url: 'https://github.com/Ankee-14/Resturant-System'
+    },
+    {
+        image: projectImg5,
+        title: 'Zen Cafe E-commerce Platform',
+        description: 'Developed a responsive cafe website with a strong focus on UI clarity, usability, and cross-device consistency using React and TypeScript. Implemented structured menu presentation, smooth user interactions, and a clean ordering flow while maintaining a consistent design theme.',
+        tags: ['React', 'TypeScript', 'Figma', 'GitHub'],
+        url: 'https://github.com/Ankee-14/Zen-Cafe'
     },
     {
         image: projectImg2,
@@ -41,7 +49,9 @@ const projectsData: Project[] = [
         title: 'Graphics Design',
         description: 'Graphic design experience creating flyers, posters, and social media thumbnails with a focus on visual clarity and engagement.',
         tags: ['Photoshop', 'Illustrator', 'Canva', 'Figma']
-    }
+    },
+    
+
 ];
 
 const Projects: React.FC = () => {
